@@ -56,6 +56,7 @@ summary: Backend engineer with 8+ years of experience across startups and large 
 - Contributed to microservices rebuild for Monoprix e-commerce platform.
 - Participated in architecture discussions and technical planning.
 - Coordinated delivery with small developer teams; helped with client proposals.
+- Obtained Google Associate Cloud Engineer certification during this period.
 - Stack: Node.js, React, GCP, Kubernetes.
 
 ### southpigalle — Software Developer (Jun 2017 - Mar 2018)
@@ -74,7 +75,3 @@ summary: Backend engineer with 8+ years of experience across startups and large 
 - **[Ecole 42, Paris](https://cv.42.fr/gjensen)** — Software engineering (2014 - 2017)
 - **Universite Paris Ouest Nanterre La Defense** — Law studies (2010 - 2012)
 - **Baccalaureat Litterature & Languages**, Lycee Albert Camus, Bois-Colombes (2009)
-
-## Certifications
-
-- Google Associate Cloud Engineer

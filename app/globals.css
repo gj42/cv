@@ -150,57 +150,156 @@ body {
 }
 
 /* Print styles */
+/* Print styles - v3 simple vertical layout */
 @media print {
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
   :root {
     --background: #ffffff;
-    --foreground: #000000;
+    --foreground: #1f2937;
     --accent: #2563eb;
-    --muted: #374151;
-    --sidebar-bg: #f3f4f6;
+    --muted: #4b5563;
+    --sidebar-bg: #f9fafb;
+    --line: #e5e7eb;
+  }
+
+  @page {
+    margin: 15mm;
+    size: A4;
   }
 
   body {
     font-size: 10pt;
-    line-height: 1.35;
+    line-height: 1.4;
   }
 
+  /* Single column layout */
+  .min-h-screen {
+    display: block !important;
+  }
+
+  .max-w-5xl {
+    display: block !important;
+    max-width: 100% !important;
+  }
+
+  /* Header section */
+  aside {
+    width: 100% !important;
+    min-height: auto !important;
+    background: transparent !important;
+    padding: 0 0 1rem 0 !important;
+    border-bottom: 2px solid var(--line);
+    margin-bottom: 1rem;
+  }
+
+  /* Fix photo - smaller and properly contained */
+  aside .h-36 {
+    width: 80px !important;
+    height: 80px !important;
+  }
+
+  aside img {
+    width: 80px !important;
+    height: 80px !important;
+    object-fit: cover !important;
+    border-radius: 12px !important;
+  }
+
+  aside .ring-4 {
+    ring-width: 0 !important;
+    box-shadow: none !important;
+  }
+
+  /* Name and title */
+  aside h1 {
+    font-size: 18pt;
+    margin-bottom: 0.2rem;
+  }
+
+  aside h1 + p {
+    font-size: 12pt;
+  }
+
+  /* Show all sidebar content */
+  aside > div {
+    margin-bottom: 0.6rem;
+  }
+
+  .sidebar-section-title {
+    font-size: 10pt;
+    font-weight: 700;
+  }
+
+  .sidebar-list {
+    font-size: 9pt;
+    line-height: 1.4;
+  }
+
+  /* Main content - full width */
+  main {
+    width: 100% !important;
+    padding: 0 !important;
+  }
+
+  /* Typography */
   .cv-content h2 {
-    font-size: 13pt;
-    margin-top: 0.75rem;
+    font-size: 14pt;
+    font-weight: 700;
+    margin-top: 1rem;
     margin-bottom: 0.4rem;
     page-break-after: avoid;
+    color: var(--accent);
+    border-bottom: 2px solid var(--line);
+    padding-bottom: 0.2rem;
+  }
+
+  .cv-content h2:first-child {
+    margin-top: 0;
   }
 
   .cv-content h3 {
-    font-size: 10pt;
-    margin-top: 0.5rem;
+    font-size: 11pt;
+    font-weight: 600;
+    margin-top: 0.6rem;
+    margin-bottom: 0.3rem;
     page-break-after: avoid;
   }
 
+  .cv-content p,
+  .cv-content li {
+    font-size: 9.5pt;
+    line-height: 1.45;
+  }
+
   .cv-content ul {
-    page-break-inside: avoid;
+    margin-top: 0.3rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .cv-content li {
+    margin-bottom: 0.2rem;
   }
 
   /* Hide interactive elements */
   .no-print,
-  [data-print-hidden] {
+  button {
     display: none !important;
   }
 
-  /* Ensure links show URL */
-  a[href]::after {
-    content: none;
+  /* Links */
+  .cv-content a,
+  .sidebar-link {
+    color: var(--accent);
+    text-decoration: none;
   }
 
-  /* Avoid page breaks inside sections */
-  .cv-content > * {
+  /* Avoid breaks */
+  .cv-content h3,
+  .cv-content ul {
     page-break-inside: avoid;
-  }
-
-  /* Reset backgrounds for print */
-  aside {
-    background: var(--sidebar-bg) !important;
-    -webkit-print-color-adjust: exact;
-    print-color-adjust: exact;
   }
 }

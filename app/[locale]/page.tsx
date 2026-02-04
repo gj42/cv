@@ -128,6 +128,7 @@ export default async function CvPage({ params }: { params: Params }) {
             <a className="sidebar-link block" href={frontmatter.github} target="_blank" rel="noreferrer">
               GitHub
             </a>
+            <span className="sidebar-link hidden print:block">Website</span>
           </div>
 
           {/* Profile */}
