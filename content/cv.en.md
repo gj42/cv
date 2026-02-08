@@ -41,6 +41,7 @@ summary: Backend engineer with 8+ years of experience across startups and large 
 *Food delivery startup in Paris.*
 
 - Maintained backend services for customer products and internal tools.
+- Built features like "Frichti TV" (TikTok-style recipe feed with content tracking for mobile and web).
 - Worked in a cross-functional squad with frontend, mobile, and backend engineers.
 - Stack: Node.js, TypeScript, PostgreSQL, AWS, Kubernetes (EKS), RabbitMQ.
 

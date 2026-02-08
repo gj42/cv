@@ -41,6 +41,7 @@ summary: Développeur backend avec 8+ ans d'expérience en startups et grandes p
 *Startup de livraison de repas à Paris.*
 
 - Maintenance des services backend pour les produits clients et outils internes.
+- Développement de fonctionnalités comme "Frichti TV" (feed vidéo type TikTok avec tracking de contenu pour mobile et web).
 - Travail en squad cross-fonctionnel avec ingénieurs frontend, mobile et backend.
 - Stack : Node.js, TypeScript, PostgreSQL, AWS, Kubernetes (EKS), RabbitMQ.
 
