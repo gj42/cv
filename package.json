@@ -6,14 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint",
-    "pdf": "bun run scripts/generate-pdf.ts",
-    "build:all": "bun run pdf && bun run build"
+    "lint": "eslint"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.19",
     "gray-matter": "^4.0.3",
-    "md-to-pdf": "^5.2.5",
     "next": "16.1.6",
     "react": "19.2.3",
     "react-dom": "19.2.3",

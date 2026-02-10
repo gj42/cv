@@ -41,6 +41,7 @@ summary: Développeur backend avec 8+ ans d'expérience en startups et grandes p
 *Startup de livraison de repas à Paris.*
 
 - Maintenance des services backend pour les produits clients et outils internes.
+- Développement de fonctionnalités comme "Frichti TV" (feed vidéo type TikTok avec tracking de contenu pour mobile et web).
 - Travail en squad cross-fonctionnel avec ingénieurs frontend, mobile et backend.
 - Stack : Node.js, TypeScript, PostgreSQL, AWS, Kubernetes (EKS), RabbitMQ.
 
@@ -56,6 +57,7 @@ summary: Développeur backend avec 8+ ans d'expérience en startups et grandes p
 - Contribution à la refonte microservices de la plateforme e-commerce Monoprix.
 - Participation aux discussions d'architecture et à la planification technique.
 - Coordination de la delivery avec de petites équipes de développeurs ; aide aux propositions clients.
+- Obtention de la certification Google Associate Cloud Engineer durant cette période.
 - Stack : Node.js, React, GCP, Kubernetes.
 
 ### southpigalle — Software Developer (Juin 2017 - Mar 2018)
@@ -74,7 +76,3 @@ summary: Développeur backend avec 8+ ans d'expérience en startups et grandes p
 - **[Ecole 42, Paris](https://cv.42.fr/gjensen)** — Ingénierie logicielle (2014 - 2017)
 - **Université Paris Ouest Nanterre La Défense** — Études de droit (2010 - 2012)
 - **Baccalauréat Littérature & Langues**, Lycée Albert Camus, Bois-Colombes (2009)
-
-## Certifications
-
-- Google Associate Cloud Engineer
